@@ -1,6 +1,6 @@
 # Slop Popper
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A4Q728XPQ3)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A4Q728XPQ3) [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/j7labs)
 
 An agent skill that cleans AI-generated slop out of working code without changing what the code does.
 
@@ -28,11 +28,25 @@ An agent skill that cleans AI-generated slop out of working code without changin
 
 ## Install
 
-Copy the `slop-popper` folder into your agent's skills folder so the file ends up at `.claude/skills/slop-popper/SKILL.md` (or the same `slop-popper/SKILL.md` path wherever your coding agent loads skills from). Keep the folder name lowercase and matching the skill's `name`, or it won't install. Then type `/deslop` before a commit, or ask it to "deslop this module."
+Copy the `slop-popper` folder into your agent's skills folder so the file ends up at `.claude/skills/slop-popper/SKILL.md` (or the same `slop-popper/SKILL.md` path wherever your coding agent loads skills from). Keep the folder name lowercase and matching the skill's `name`, or it won't install.
+
+Quick install for Claude Code, from your project folder:
+
+```
+git clone https://github.com/J7-Tech/Slop-Popper
+mkdir -p .claude/skills
+cp -r Slop-Popper/slop-popper .claude/skills/
+```
+
+Then type `/deslop` before a commit, or ask it to "deslop this module."
 
 ## Works with
 
 Any language. It includes comment conventions and common checkers for Python, JavaScript and TypeScript, C#, Java and Kotlin, Go, and Rust, and it works without git or tests by falling back to safer, review-only behavior.
+
+## Support
+
+Slop Popper is free. If it saved you some cleanup time, you can support future projects through [Ko-fi](https://ko-fi.com/A4Q728XPQ3) or [Buy Me a Coffee](https://buymeacoffee.com/j7labs). Bug reports and ideas are welcome in [Issues](https://github.com/J7-Tech/Slop-Popper/issues).
 
 ## License
 
