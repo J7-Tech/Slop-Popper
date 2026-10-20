@@ -1,6 +1,7 @@
 # Slop Popper
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A4Q728XPQ3) [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/j7labs)
+![Slop Popper demo](docs/slop-popper-demo.gif)
 
 An agent skill that cleans AI-generated slop out of working code without changing what the code does.
 
